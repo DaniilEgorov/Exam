@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="Материал" />
+      <ComboBox fx:id="material" layoutX="14.0" layoutY="39.0" prefWidth="150.0" value="Древесина" />
+      <Label layoutX="214.0" layoutY="14.0" text="Информация об этажах:" />
+      <Label layoutX="214.0" layoutY="43.0" text="Ширина" />
+      <TextField fx:id="width" layoutX="300.0" layoutY="39.0" prefHeight="25.0" prefWidth="35.0" />
+      <Label layoutX="214.0" layoutY="71.0" text="Длина" />
+      <TextField fx:id="length" layoutX="300.0" layoutY="67.0" prefHeight="25.0" prefWidth="35.0" />
+      <Label layoutX="403.0" layoutY="43.0" text="Высота" />
+      <TextField fx:id="height" layoutX="494.0" layoutY="39.0" prefHeight="25.0" prefWidth="35.0" />
+      <Label layoutX="403.0" layoutY="71.0" text="Количество" />
+      <TextField fx:id="number" layoutX="494.0" layoutY="67.0" prefHeight="25.0" prefWidth="35.0" />
+      <Label layoutX="14.0" layoutY="103.0" text="Дата сдачи постройки" />
+      <DatePicker fx:id="dp" layoutX="14.0" layoutY="131.0" />
+      <Button layoutX="14.0" layoutY="286.0" mnemonicParsing="false" onAction="#button_get" text="Получить" />
+      <Label fx:id="label" layoutX="14.0" layoutY="260.0" />
+   </children>
+</AnchorPane>
